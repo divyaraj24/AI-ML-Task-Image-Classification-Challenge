@@ -24,12 +24,12 @@
 
 ![step4](images/step4.png)
 
-- Step - 5: Print the summary statistics of the given datset.
+- Step - 5: Print the summary statistics of the given datset and store them in a csv file.
 
 ![step5](images/step5.png)
 
 
-##### Plot diplsaying sample images:
+##### Plot displaying sample images:
 
 ![plot](images/plot1.png)
 
