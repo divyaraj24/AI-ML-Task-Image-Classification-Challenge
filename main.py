@@ -31,4 +31,6 @@ for i, label in enumerate(sorted(labels)):
 plt.tight_layout()
 plt.show()
 
+# diplay summary statistics and store in a csv file
 print(df.describe())
+df.describe().to_csv("summary_statistics.csv")
