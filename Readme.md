@@ -3,7 +3,7 @@
 #### Level - 1: Exploratory Data Analysis
 
 
-> Dataset is not present is in this repository as it was too large to upload to github.
+> Dataset is not present in this repository as it was too large to upload to github.
 
 
 ##### Steps: 
