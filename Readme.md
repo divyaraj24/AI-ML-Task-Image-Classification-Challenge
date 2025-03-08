@@ -68,3 +68,9 @@ Finally, standardize the pixel data (input values) to have mean 0 and standard d
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
+##### Classifying random images from the test set:
+
+![classify](images/classify.png)
+![classify](images/classify1.png)
+![classify](images/classify2.png)
+![classify](images/classify3.png)

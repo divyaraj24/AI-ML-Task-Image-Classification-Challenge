@@ -83,3 +83,19 @@ plt.xlabel("Predicted Label")
 plt.ylabel("True Label")
 plt.title("Confusion Matrix")
 plt.show()
+
+# Testing the model on random images from the test set
+
+random_indices = np.random.choice(range(x_test.shape[0]), size=3, replace=False)
+image_size = 28
+
+for i in random_indices:
+    image = x_test[i].reshape(28,28)
+    pred_label = model.predict(x_test[i].reshape(1, -1))[0]
+    true_label = y_test[i]
+
+    plt.figure()
+    plt.imshow(image,cmap="gray")
+    plt.title(f"True Label: {true_label} | Predicted: {pred_label}")
+    plt.axis("off")
+    plt.show()
